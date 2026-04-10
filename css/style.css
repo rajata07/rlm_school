@@ -457,6 +457,7 @@ img {
     width: 100%;
     height: 400px;
     object-fit: cover;
+    object-position: center top;
     border-radius: var(--radius);
 }
 
@@ -939,13 +940,13 @@ img {
 
 .director-section {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
     align-items: center;
 }
 
 .director-image {
-    width: 300px;
+    width: 100%;
     height: 350px;
     border-radius: var(--radius);
     overflow: hidden;
@@ -956,6 +957,7 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center top;
 }
 
 .director-info h3 {
@@ -1402,8 +1404,8 @@ img {
     }
 
     .director-image {
-        width: 200px;
-        height: 250px;
+        width: 100%;
+        height: 280px;
         margin: 0 auto;
     }
 
