@@ -1416,8 +1416,19 @@ img {
 
 @media (max-width: 768px) {
     .top-bar .container {
-        justify-content: center;
+        flex-direction: column;
         text-align: center;
+        gap: 6px;
+    }
+
+    .top-bar-left {
+        flex-direction: column;
+        gap: 4px;
+        font-size: 0.8rem;
+    }
+
+    .top-bar-right {
+        display: none;
     }
 
     .hamburger {
